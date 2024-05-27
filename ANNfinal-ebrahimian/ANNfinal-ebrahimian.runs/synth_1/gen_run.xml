@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010iclg225-1L" LaunchTime="1705577138">
+  <File Type="PA-TCL" Name="artificial_neural_network.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="artificial_neural_network_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="artificial_neural_network_reports.tcl"/>
+  <File Type="RDS-RDS" Name="artificial_neural_network.vds"/>
+  <File Type="RDS-UTIL" Name="artificial_neural_network_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="artificial_neural_network_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="artificial_neural_network.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="artificial_neural_network_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="artificial_neural_network_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/layer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ANN/ANN.srcs/sources_1/new/layer.v"/>
+        <Attr Name="ImportTime" Val="1705327302"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/neuron.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ANN/ANN.srcs/sources_1/new/neuron.v"/>
+        <Attr Name="ImportTime" Val="1705325954"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ANN.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ANN/ANN.srcs/sources_1/new/ANN.v"/>
+        <Attr Name="ImportTime" Val="1705324127"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="artificial_neural_network"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

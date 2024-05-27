@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Jan 18 14:55:46 2024
+# Process ID: 19512
+# Current directory: D:/Download/rcs/ANNfinal-ebrahimian/ANNfinal-ebrahimian.runs/synth_1
+# Command line: vivado.exe -log artificial_neural_network.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source artificial_neural_network.tcl
+# Log file: D:/Download/rcs/ANNfinal-ebrahimian/ANNfinal-ebrahimian.runs/synth_1/artificial_neural_network.vds
+# Journal file: D:/Download/rcs/ANNfinal-ebrahimian/ANNfinal-ebrahimian.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source artificial_neural_network.tcl -notrace

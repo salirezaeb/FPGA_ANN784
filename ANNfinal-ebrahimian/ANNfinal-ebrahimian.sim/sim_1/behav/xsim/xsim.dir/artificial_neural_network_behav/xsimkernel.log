@@ -1,0 +1,7 @@
+Running: xsim.dir/artificial_neural_network_behav/xsimk.exe -simmode gui -wdb artificial_neural_network_behav.wdb -simrunnum 0 -socket 60185
+Design successfully loaded
+Design Loading Memory Usage: 6804 KB (Peak: 6804 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 7452 KB (Peak: 7452 KB)
+Simulation CPU Usage: 46 ms

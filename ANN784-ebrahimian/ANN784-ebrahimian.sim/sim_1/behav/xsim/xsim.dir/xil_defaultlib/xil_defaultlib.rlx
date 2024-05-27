@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/Download/rcs/ANN784-ebrahimian/ANN784-ebrahimian.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/Download/rcs/ANN784-ebrahimian/ANN784-ebrahimian.srcs/sim_1/new/tb.v,1705575555,verilog,,,,artificial_neural_network_tb,,,,,,,,
+D:/Download/rcs/ANN784-ebrahimian/ANN784-ebrahimian.srcs/sources_1/new/ANN_784.v,1705491834,verilog,,D:/Download/rcs/ANN784-ebrahimian/ANN784-ebrahimian.srcs/sources_1/new/hidden_layer.v,,artificial_neural_network,,,,,,,,
+D:/Download/rcs/ANN784-ebrahimian/ANN784-ebrahimian.srcs/sources_1/new/hidden_layer.v,1705491720,verilog,,D:/Download/rcs/ANN784-ebrahimian/ANN784-ebrahimian.srcs/sources_1/new/neuron.v,,layer,,,,,,,,
+D:/Download/rcs/ANN784-ebrahimian/ANN784-ebrahimian.srcs/sources_1/new/neuron.v,1705574589,verilog,,D:/Download/rcs/ANN784-ebrahimian/ANN784-ebrahimian.srcs/sim_1/new/tb.v,,neuron,,,,,,,,

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ANN784-ebrahimian.srcs/sources_1/new/ANN_784.v" \
+"../../../../ANN784-ebrahimian.srcs/sources_1/new/hidden_layer.v" \
+"../../../../ANN784-ebrahimian.srcs/sources_1/new/neuron.v" \
+"../../../../ANN784-ebrahimian.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
